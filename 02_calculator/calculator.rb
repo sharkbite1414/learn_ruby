@@ -14,3 +14,25 @@ def sum(arr)
   end
   sum.to_i
 end
+
+def multiply(arr)
+  mul = 1
+  arr.each do |i|
+    mul *= i
+  end
+  mul.to_i
+end
+
+def power(x, y)
+  x ** y
+end
+
+def factorial(x)
+  fac = 1
+  if x != 0
+    for i in 1..x do
+      fac *= i
+    end
+  end
+  fac
+end
